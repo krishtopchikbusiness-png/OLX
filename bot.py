@@ -24,7 +24,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
 ADMIN_ID_RAW = os.getenv("ADMIN_ID", "").strip()
 DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
 
-WELCOME_TEXT = "Добро пожаловать 👋"
+WELCOME_TEXT = "https://t.me/+-20ZfSJ5Sxs3MTcy"
 
 if not BOT_TOKEN:
     raise RuntimeError("Не найдена переменная BOT_TOKEN")
